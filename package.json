@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
+    "build": "npm install --legacy-peer-deps && next build"
   },
   "dependencies": {
     "cloudinary": "^2.6.0",
